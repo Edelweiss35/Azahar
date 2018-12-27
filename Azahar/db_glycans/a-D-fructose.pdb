@@ -1,0 +1,49 @@
+ATOM      1  C1  AFR A   0       0.726   1.297   8.379  1.00  0.00           C  
+ATOM      2  O1  AFR A   0       1.757   2.144   7.907  1.00  0.00           O  
+ATOM      3  C2  AFR A   0       0.469   0.112   7.408  1.00  0.00           C  
+ATOM      4  O2  AFR A   0       1.578  -0.169   6.567  1.00  0.00           O  
+ATOM      5  C3  AFR A   0       0.016  -1.142   8.180  1.00  0.00           C  
+ATOM      6  O3  AFR A   0       0.838  -1.471   9.295  1.00  0.00           O  
+ATOM      7  C4  AFR A   0      -1.414  -0.743   8.528  1.00  0.00           C  
+ATOM      8  O4  AFR A   0      -2.211  -1.842   8.906  1.00  0.00           O  
+ATOM      9  C5  AFR A   0      -1.836  -0.113   7.193  1.00  0.00           C  
+ATOM     10  C6  AFR A   0      -2.981   0.888   7.360  1.00  0.00           C  
+ATOM     11  O6  AFR A   0      -4.070   0.234   7.986  1.00  0.00           O  
+ATOM     12  OR  AFR A   0      -0.675   0.507   6.611  1.00  0.00           O  
+ATOM     13  H3  AFR A   0       0.011  -2.029   7.536  1.00  0.00           H  
+ATOM     14  H4  AFR A   0      -1.431  -0.020   9.355  1.00  0.00           H  
+ATOM     15  H5  AFR A   0      -2.165  -0.907   6.513  1.00  0.00           H  
+ATOM     16  H1R AFR A   0       1.021   0.986   9.379  1.00  0.00           H  
+ATOM     17  H1S AFR A   0      -0.195   1.881   8.519  1.00  0.00           H  
+ATOM     18  H1o AFR A   0       1.916   2.804   8.602  1.00  0.00           H  
+ATOM     19  H2o AFR A   0       2.364  -0.338   7.121  1.00  0.00           H  
+ATOM     20  H3o AFR A   0       0.948  -0.702   9.873  1.00  0.00           H  
+ATOM     21  H6R AFR A   0      -3.286   1.289   6.385  1.00  0.00           H  
+ATOM     22  H6S AFR A   0      -2.672   1.743   7.975  1.00  0.00           H  
+ATOM     23  H4o AFR A   0      -3.153  -1.522   8.879  1.00  0.00           H  
+ATOM     24  H6o AFR A   0      -4.822   0.889   8.014  1.00  0.00           H  
+CONECT    1    2    3   16   17
+CONECT    2    1   18
+CONECT    3    1    4    5   12
+CONECT    4    3   19
+CONECT    5    3    6    7   13
+CONECT    6    5   20
+CONECT    7    5    8    9   14
+CONECT    8    7   23
+CONECT    9    7   10   12   15
+CONECT   10    9   11   21   22
+CONECT   11   10   24
+CONECT   12    3    9
+CONECT   13    5
+CONECT   14    7
+CONECT   15    9
+CONECT   16    1
+CONECT   17    1
+CONECT   18    2
+CONECT   19    4
+CONECT   20    6
+CONECT   21   10
+CONECT   22   10
+CONECT   23    8
+CONECT   24   11
+END
